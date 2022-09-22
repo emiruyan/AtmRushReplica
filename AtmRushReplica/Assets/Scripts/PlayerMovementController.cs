@@ -23,7 +23,7 @@ public class PlayerMovementController : MonoBehaviour
         
         if (Input.GetMouseButton(0))
         {
-            _horizontal = Input.GetAxisRaw("Mouse X");
+            _horizontal = Input.GetAxisRaw("Mouse X");      
         }
         
         _newX = transform.position.x + _horizontal * horizontalSpeed * Time.deltaTime;
